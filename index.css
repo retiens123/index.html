@@ -1,0 +1,126 @@
+* { margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.hero { width: 100%;
+    height: 100%;
+    
+}
+
+.logo {
+    margin: 50px;
+    margin-top: 25px;
+    align-items: center;
+    display: flex;
+    
+
+}
+
+ul {
+    text-align: right;
+    flex: 1;
+    margin: 10px;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 10px;  
+}
+
+ul li a{ text-decoration: none;
+font-weight: bold;
+color:black;
+}
+
+.menu img { height: 20px;
+margin: 10px;
+margin-top: 20px;
+}
+
+ul li a img { height: 15px;
+display: 1;
+margin-top: 10px;
+}
+
+.jos {margin-top: 75px;
+display: flex;}
+
+.left, .right {flex-basis: 50%;}
+
+.right img {width: 70%;
+}
+
+ .search img { margin-left: 30px;
+width: 18px;
+}
+
+.search input { outline: none;
+margin-left: 10px;
+border: 0;
+border-bottom: 1px solid rgb(117, 117, 117);
+border-top: 1px solid rgb(117, 117, 117);}
+
+.btn button { 
+    margin-top: 40px;
+margin-left: 80px;
+border: 1px solid #74173d;
+background: linear-gradient(30deg,#ff5da1, #c43a73, #74173d);
+outline: none;
+border-radius: 20px;
+color: #fff4f8;
+padding: 10px 20px;
+cursor: pointer;
+}
+
+ .icons img { margin-left: 55px;
+    margin-top: 30px;
+    width: 12px;
+    font-size: 1;
+cursor: pointer;}
+
+
+
+ .left p span { color:rgb(255, 75, 129);}
+
+ .left p, h5 {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 30px;}
+ 
+@media (max-width: 700px) { 
+    .logo img{
+        justify-content: center;
+        position: absolute;
+        overflow: hidden;
+        margin-left: 130px;
+
+    }
+
+    .nav {position: absolute;
+        margin-top: 100px;
+    }
+
+    .menu img {display: flex;
+    right: 30px;
+top: 5px;}
+
+
+.nav ul li a img {position: absolute;
+left: -120px;
+top: 10px;}
+
+.jos {flex-basis: 100%;}
+
+.left, .right {display:list-item;}
+
+.right {position:absolute;
+margin-left: 120px;
+top: 80vh;}
+.left {position: absolute;
+margin-left: 100px;}
+
+}
+
+
+
+
